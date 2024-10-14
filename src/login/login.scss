@@ -1,10 +1,11 @@
 @use "@carbon/colors";
 @use "@carbon/styles/scss/type";
 @import "../root.scss";
+
 .container {
     display: flex;
     align-items: center;
-    background-image: url("../assets/background.png");
+    background-image: url("../assets/background-1.jpg");
     background-repeat: no-repeat;
     height: 100vh;
     background-size: cover;
@@ -20,6 +21,7 @@
     @include type.type-style('label-02');
     text-align: center;
     margin-top: 1rem;
+
     >*+* {
         margin-left: 0.5rem;
     }
@@ -33,6 +35,7 @@
     a {
         color: colors.$gray-70;
         text-decoration: none;
+
         &:hover {
             text-decoration: underline;
         }
@@ -45,6 +48,7 @@
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+
     svg {
         height: 2rem;
         width: 7rem;
@@ -57,9 +61,11 @@
         background-size: contain;
         justify-content: right;
     }
+
     .login-card {
         border: none;
     }
+
     .footer {
         display: flex;
         flex-direction: column;
@@ -130,11 +136,13 @@
     flex-direction: column;
     align-items: center;
     width: 18rem;
-     :global(.cds--text-input) {
+
+    :global(.cds--text-input) {
         height: 3rem;
         @extend .label01;
     }
-     :global(.cds--text-input__field-outer-wrapper) {
+
+    :global(.cds--text-input__field-outer-wrapper) {
         width: 18rem;
     }
 }
@@ -154,10 +162,12 @@
 .back-button {
     height: 3rem;
     padding-left: 0rem;
+
     svg {
         margin-right: 0.5rem;
         order: 1;
     }
+
     span {
         order: 2;
     }

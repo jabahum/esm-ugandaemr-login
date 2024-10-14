@@ -1,4 +1,4 @@
-name: UgandaEMR CI
+name: UPDFEMR CI
 
 on:
   workflow_dispatch:
@@ -11,8 +11,8 @@ on:
       - created
 
 env:
-  ESM_NAME: "@ugandaemr/esm-login-app"
-  JS_NAME: "esm-ugandaemr-login.js"
+  ESM_NAME: "@updfemr/esm-login-app"
+  JS_NAME: "esm-updfemr-login.js"
 
 jobs:
   build:
