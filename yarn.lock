@@ -6540,9 +6540,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ugandaemr/esm-login-app@workspace:.":
+"@ungap/structured-clone@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "@ungap/structured-clone@npm:1.2.0"
+  checksum: 4f656b7b4672f2ce6e272f2427d8b0824ed11546a601d8d5412b9d7704e83db38a8d9f402ecdf2b9063fc164af842ad0ec4a55819f621ed7e7ea4d1efcc74524
+  languageName: node
+  linkType: hard
+
+"@updfemr/esm-login-app@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@ugandaemr/esm-login-app@workspace:."
+  resolution: "@updfemr/esm-login-app@workspace:."
   dependencies:
     "@carbon/react": ^1.12.0
     "@openmrs/esm-framework": latest
@@ -6596,13 +6603,6 @@ __metadata:
     rxjs: 6.x
   languageName: unknown
   linkType: soft
-
-"@ungap/structured-clone@npm:^1.2.0":
-  version: 1.2.0
-  resolution: "@ungap/structured-clone@npm:1.2.0"
-  checksum: 4f656b7b4672f2ce6e272f2427d8b0824ed11546a601d8d5412b9d7704e83db38a8d9f402ecdf2b9063fc164af842ad0ec4a55819f621ed7e7ea4d1efcc74524
-  languageName: node
-  linkType: hard
 
 "@webassemblyjs/ast@npm:1.12.1, @webassemblyjs/ast@npm:^1.11.5":
   version: 1.12.1
